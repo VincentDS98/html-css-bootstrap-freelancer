@@ -1,0 +1,23 @@
+.first-img {
+    max-width: 200px;
+}
+
+.star-container::before,
+.star-container::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.star-container i {
+    vertical-align: middle;
+}
+
+
+.star-container.dark::before,
+.star-container.dark::after {
+    background-color: black ;
+}
